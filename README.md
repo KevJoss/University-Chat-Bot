@@ -27,8 +27,6 @@ The project follows a graph-based workflow using **LangGraph**:
 3.  **Generate Node:** Synthesizes the retrieved context into a helpful Spanish response.
 4.  **Chat Node:** Handles general interaction if no search is needed.
 
-![LangGraph Workflow](images/graph.png)
-
 ---
 
 ## 📦 Prerequisites
