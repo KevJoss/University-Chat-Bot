@@ -27,7 +27,7 @@ The project follows a graph-based workflow using **LangGraph**:
 3.  **Generate Node:** Synthesizes the retrieved context into a helpful Spanish response.
 4.  **Chat Node:** Handles general interaction if no search is needed.
 
-![Architecture Diagram](https://mermaid.ink/img/pako:eNp1kcFqwzAMhl_F6Nw-gA-FXYbS0xZKGXuJ4tiO1FhGTo6VlvTdx0k3G2wH2Z_-_0-WdC61ZAoWfG-8w3YwF_J4yzI38eM9y_K8uWd3y9uMP-7uVvlyz_Jqg93oPVAoHE7Q4_f2_gG7i0MEO-g9W-gCJ-g8B9g_r9AHLtAXHk4-eDjD4GGLM_QlLB-sJ1yK30F7J__hUq011FprY4x5P_iJ9X00Vq0t1J6tJ_8g5R9S9Qe779B_h_4J_Z_Qf0L_C_0_9H_Qf4Z-Z_3O-p31O-t31u-s31m_s35n_f4H63fW76zf_7F-P_4Chr2J1A?type=png)
+![LangGraph Workflow](images/graph.png)
 
 ---
 
@@ -50,7 +50,7 @@ Before running the project, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/yachay-ai-assistant.git](https://github.com/your-username/yachay-ai-assistant.git)
+    git clone [https://github.com/your-username/yachay-ai-assistant.git]
     cd yachay-ai-assistant
     ```
 
@@ -122,6 +122,4 @@ Once the app is running, try asking:
 ---
 
 > **Note:**  
-> This project requires **Python 3.12 or higher** for full compatibility with all dependencies.
----
 > **Author**: Kevin Sánchez **Course**: Intelligent Agents - Yachay Tech
