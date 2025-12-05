@@ -1,7 +1,7 @@
 from langchain_core.prompts import ChatPromptTemplate
 
 # --- 1. ROUTER PROMPT ---
-ROUTER_TEMPLATE = """YYou are a strict classification system.
+ROUTER_TEMPLATE = """You are a strict classification system.
 Classify the user's input into exactly one of these two categories:
 
 1. SEARCH: Questions about university locations, offices, services, scholarships, procedures, or contact info.
@@ -14,7 +14,7 @@ Input: "Necesito ayuda con una beca" -> SEARCH
 Input: "Buenos días" -> CHAT
 Input: "¿Quién es el rector?" -> SEARCH
 Input: "Cuéntame un chiste" -> CHAT
-Input: "Dondé puedo preguntar sobre servicios médicos?" -> CHAT
+Input: "Dondé puedo preguntar sobre servicios médicos?" -> SEARCH
 
 User Input: {question}
 

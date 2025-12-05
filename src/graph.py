@@ -23,8 +23,6 @@ llm = ChatOllama(
     top_k=40)
 
 # --- NODE DEFINITION ---
-
-# --- NODE DEFINITION ---
 def router_node(state: AgentState):
     print(f"\n--- [DEBUG] ROUTER: Analizando '{state['question']}' ---")
     chain = router_prompt | llm | StrOutputParser()
